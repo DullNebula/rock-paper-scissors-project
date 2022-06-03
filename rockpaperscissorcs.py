@@ -47,6 +47,7 @@ def rps():
                 print("\nScissors beat paper, you lose\n")
                 cpu_score += 1
         elif player_choice == "quit":
+            print(f"\nThanks for playing, {name}!\n")
             break
         else:
             print("\nYour input was not one of the valid options, please try again\n") 
